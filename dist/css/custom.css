@@ -1,0 +1,35 @@
+/* Arquivo gerado automaticamente. Alterações efetuadas manualmente serão perdidas. */
+/* capa */
+.ascss-4 {
+background-size: cover;
+background-image: url(../midias/bg/capa.jpg);
+background-position: center;
+}
+/* tela_02 */
+.ascss-71 {
+background-size: cover;
+background-image: url(../midias/bg/tela_02.jpg);
+background-position: center;
+background-attachment: fixed;
+}
+@media (max-width: 640px) {
+.ascss-71 {
+background-image: url("../midias/bg/tela_branca_neutra.jpg");
+background-position: center;
+background-size: cover;
+}
+}
+/* tela_branca_neutra */
+.ascss-113 {
+background-size: cover;
+background-image: url(../midias/bg/tela_branca_neutra.jpg);
+background-position: center;
+background-attachment: fixed;
+}
+/* tela_cinza_neutra */
+.ascss-130 {
+background-size: cover;
+background-image: url(../midias/bg/tela_cinza_neutra.jpg);
+background-position: center;
+background-attachment: fixed;
+}

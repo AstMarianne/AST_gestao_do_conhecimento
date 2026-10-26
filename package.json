@@ -1,0 +1,22 @@
+{
+  "name": "op-builder",
+  "version": "0.01",
+  "main": "index.js",
+  "repository": "git@github.com:asteriscoeducacao/op-builder.git",
+  "author": "Henrique Rabello <hrabello@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hands-on-client": "git+ssh://git@github.com:asteriscoeducacao/hands-on-client.git",
+    "hands-on-common": "git+ssh://git@github.com:asteriscoeducacao/hands-on-common.git",
+    "hands-on-course": "git+ssh://git@github.com:asteriscoeducacao/hands-on-course.git",
+    "hands-on-server": "git+ssh://git@github.com:asteriscoeducacao/hands-on-server.git"
+  },
+  "scripts": {
+    "clear-cache": "yarn cache clean --all",
+    "dev": "yarn install && yarn as-upgrade && hands-on-server",
+    "lint:server": "eslint ./server --ext .ts",
+    "lint:src": "eslint ./src --ext .ts",
+    "as-upgrade": "yarn upgrade hands-on-client hands-on-server hands-on-common hands-on-course"
+  },
+  "devDependencies": {}
+}
