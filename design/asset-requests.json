@@ -1,0 +1,2975 @@
+{
+  "_readme": [
+    "Pedidos de imagem do Onboarding Asterisco. Schema: skill /op assets/asset-requests.template.json.",
+    "Os ids seguem os códigos do roteiro (OPxx, CLxx, Gxx); quando um código cobre mais de uma tela, ganhou sufixo (ex.: G15-pdf).",
+    "status: pendente → pronto (arquivo no nome_caminho_final) → integrado."
+  ],
+  "requests": [
+    {
+      "id": "G02",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_05",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "objeto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Formatos de peças — Imagem de apoio G02",
+      "descricao_visual": "Miniatura de uma OP, Storyline, animação, flipbook e podcast aprovados (substitui os ícones da frente dos flipcards).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 600,
+          "altura": 600
+        },
+        "mobile": {
+          "largura": 600,
+          "altura": 600
+        }
+      },
+      "proporcao": "1:1",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G02_<formato>.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G03-harvest",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_06",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Sistemas — Imagem de apoio G03",
+      "descricao_visual": "Captura da ação principal no Harvest, sem dados pessoais de ponto ou produtividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G03-harvest.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G03-forecast",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_06",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Sistemas — Imagem de apoio G03",
+      "descricao_visual": "Captura da ação principal no Forecast, sem dados pessoais de ponto ou produtividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G03-forecast.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G03-slack",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_06",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Sistemas — Imagem de apoio G03",
+      "descricao_visual": "Captura da ação principal no Slack, sem dados pessoais de ponto ou produtividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G03-slack.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G03-drive",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_06",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Sistemas — Imagem de apoio G03",
+      "descricao_visual": "Captura da ação principal no Google Drive, sem dados pessoais de ponto ou produtividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G03-drive.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G03-fortime",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_06",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Sistemas — Imagem de apoio G03",
+      "descricao_visual": "Captura da ação principal no Fortime, sem dados pessoais de ponto ou produtividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G03-fortime.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G04",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_12",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Padrões de e-mails — Imagem de apoio G04",
+      "descricao_visual": "Configuração da assinatura no Gmail, assinatura correta e configuração de ausência (modelos vigentes).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G04.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G05",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_13",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Projetos — Imagem de apoio G05",
+      "descricao_visual": "Fluxo visual das etapas e dos responsáveis (slides 1 e 2 de “Integração_time”), validado antes de publicar.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G05.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G06",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_19",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Ferramentas para sincronização — Imagem de apoio G06",
+      "descricao_visual": "Caminho de solicitação de acesso e exemplo de arquivo sincronizado no local compartilhado, sem senhas.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G06.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP01",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_22",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 1 Preparar a máquina — IMAGENS OP01 e OP02 — Preparação",
+      "descricao_visual": "visão das ferramentas utilizadas no fluxo, identificando VS Code, terminal, Koala e navegador.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP01.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP02",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_22",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 1 Preparar a máquina — IMAGENS OP01 e OP02 — Preparação",
+      "descricao_visual": "configuração de acesso ao GitHub e identificação do Git, com dados pessoais e chaves ocultos. Aproveitar as imagens de apoio do setup quando estiverem legíveis e atuais.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP02.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP03",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_23",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 2 Consultar a OP modelo de interações — IMAGENS OP03 e OP04 — Modelo de interações",
+      "descricao_visual": "página do repositório e menu “Code”, mostrando onde copiar o endereço de clonagem e obter o ZIP.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP03.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP04",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_23",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 2 Consultar a OP modelo de interações — IMAGENS OP03 e OP04 — Modelo de interações",
+      "descricao_visual": "curso modelo aberto, com exemplos de abas, acordeão, slider, flipcard, vídeo e questão, sem exigir que o participante responda a uma atividade.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP04.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP05",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_24",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 3 Obter o repositório do projeto — IMAGEM OP05 — Clonagem e pasta correta",
+      "descricao_visual": "Mostrar o comando de clonagem e, em seguida, a pasta do próprio curso aberta no Explorador do VS Code. Identificar a diferença entre a pasta que reúne os projetos e a raiz do projeto em edição. Referência: páginas 6 a 9 do setup.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP05.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP06",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_25",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 4 Abrir o curso pela primeira vez — IMAGENS OP06 e OP07 — Primeira abertura",
+      "descricao_visual": "terminal na raiz do curso com “yarn dev” e a conclusão da inicialização.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP06.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP07",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_25",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 4 Abrir o curso pela primeira vez — IMAGENS OP06 e OP07 — Primeira abertura",
+      "descricao_visual": "interface Hands-on que se abre ao finalizar. Referência: páginas 9 e 10 do setup.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP07.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP08",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_26",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 5 Reabrir uma cópia já preparada — IMAGEM OP08 — Reabertura",
+      "descricao_visual": "Mostrar o comando de reabertura e uma legenda de comparação: primeira abertura da cópia com “yarn dev”; reabertura da cópia preparada com “yarn hands-on-server”; publicação com “yarn hands-on-build-dist”.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP08.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP09",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_27",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 6 Abrir e preparar o Koala antes dos estilos — IMAGENS OP09 e OP10 — Koala",
+      "descricao_visual": "Koala com a pasta correta adicionada e o SCSS selecionado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP09.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP10",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_27",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 6 Abrir e preparar o Koala antes dos estilos — IMAGENS OP09 e OP10 — Koala",
+      "descricao_visual": "configuração real da compilação, destacando entrada, saída, modo automático ou manual utilizado pela equipe e indicação de sucesso.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP10.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP11",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_28",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 7 Conhecer as pastas e localizar a tela — IMAGEM OP11 — Estrutura da OP",
+      "descricao_visual": "Print do Explorador do VS Code com as pastas de telas, estilos e mídias expandidas, sem mostrar arquivos desnecessários. Destacar um HTML, seu estilo e um asset relacionado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP11.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP12",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_29",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 8 Montar e editar as telas — IMAGENS OP12 e OP13 — Edição de tela",
+      "descricao_visual": "interface Hands-on com o botão “Editar curso” e a identificação da seção.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP12.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP13",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_29",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 8 Montar e editar as telas — IMAGENS OP12 e OP13 — Edição de tela",
+      "descricao_visual": "HTML no VS Code e resultado correspondente no navegador, com o mesmo título destacado. Referência: página 11 do setup.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP13.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP14",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_30",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 9 Editar o estilo e conferir a compilação — IMAGENS OP14 e OP15 — SCSS e resultado",
+      "descricao_visual": "comparação entre SCSS salvo, sucesso no Koala e CSS de saída atualizado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP14.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP15",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_30",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 9 Editar o estilo e conferir a compilação — IMAGENS OP14 e OP15 — SCSS e resultado",
+      "descricao_visual": "antes e depois no desktop e no mobile, mostrando a alteração de composição.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP15.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP16",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_31",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 10 Inserir as interações e as mídias — IMAGENS OP16 e OP17 — Componentes",
+      "descricao_visual": "componente na biblioteca e sua engrenagem de edição.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP16.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP17",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_31",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 10 Inserir as interações e as mídias — IMAGENS OP16 e OP17 — Componentes",
+      "descricao_visual": "painel do componente com conteúdo preenchido e o resultado no curso. Usar um acordeão como primeiro exemplo, conforme páginas 12 e 13 do setup, e uma segunda composição da biblioteca para mostrar que cada componente tem seus campos.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP17.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP18",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_32",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 11 Salvar registrar e sincronizar — IMAGEM OP18 — Histórico e sincronização",
+      "descricao_visual": "Mostrar os arquivos alterados, um comentário de exemplo e o resultado da sincronização. Diferenciar arquivo apenas salvo, commit registrado e alteração enviada ao repositório. Referência: páginas 13 e 14 do setup.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP18.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP19",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_33",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 12 Conferir e gerar o pacote final — IMAGENS OP19 e OP20 — Publicação",
+      "descricao_visual": "término do servidor, comando de publicação e mensagem de conclusão.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP19.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "OP20",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_33",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Passo 12 Conferir e gerar o pacote final — IMAGENS OP19 e OP20 — Publicação",
+      "descricao_visual": "pacote gerado e identificação do arquivo que segue para homologação. Referência: página 15 do setup.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/OP20.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "CL01",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_35",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Como fazer uma OP com apoio do Claude — IMAGENS CL01 a CL03",
+      "descricao_visual": "projeto e roteiro disponibilizados ao Claude.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/CL01.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "CL02",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_35",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Como fazer uma OP com apoio do Claude — IMAGENS CL01 a CL03",
+      "descricao_visual": "pedido com contexto e referência, acompanhado dos arquivos alterados.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/CL02.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "CL03",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_35",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Como fazer uma OP com apoio do Claude — IMAGENS CL01 a CL03",
+      "descricao_visual": "resultado no curso, com o Koala e a compilação conferidos quando houver alteração de SCSS.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/CL03.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G07",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_39",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Organização de pastas DG — Imagem de apoio G07",
+      "descricao_visual": "Árvore de pastas _DG já recebida (reutilizar a imagem; não usar o print inteiro do Trello).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G07.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G08",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_46",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "ID AST nos pacotes — Imagem de apoio G08",
+      "descricao_visual": "Campos de título/ID na OP, no Storyline e no pacote publicado (padrão de ID AST ainda a definir).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G08.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G09-otimizacao",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_48",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Otimização de imagens — Imagem de apoio G09",
+      "descricao_visual": "Antes/depois da exportação de imagem (software e configurações do cartão T10 a definir).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G09-otimizacao.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G09-flipbook",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_49",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Flipbook scormizado — Imagem de apoio G09",
+      "descricao_visual": "Configuração e resultado do flipbook scormizado (cartão T11).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G09-flipbook.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G10",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_50",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Homologação OP — Imagem de apoio G10",
+      "descricao_visual": "Desktop e mobile da mesma OP e registro dos itens verificados (pode reaproveitar OP15).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G10.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G11",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_51",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Vídeos interativos — Imagem de apoio G11",
+      "descricao_visual": "Ponto de decisão e caminhos; exemplo na OP e exemplo em pacote separado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G11.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G12-storyboard",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_53",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Storyboard e pré-produção — Imagem de apoio G12",
+      "descricao_visual": "Template de storyboard preenchido, referência canônica e continuidade entre cenas (material aprovado).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G12-storyboard.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G12-veo",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_54",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Referências e animação no VEO ou Flow — Imagem de apoio G12",
+      "descricao_visual": "Exemplo aprovado de referência e animação, sem associar a pessoas reais.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G12-veo.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G13",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_55",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Como gerar locuções — Imagem de apoio G13",
+      "descricao_visual": "Interface da ferramenta, configuração de voz, geração/escuta e pasta _locucoes_IA.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G13.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G14-backgrounds",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_57",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "iOS e backgrounds — Imagem de apoio G14",
+      "descricao_visual": "Comparação do background no iPhone/iPad, antes e depois, com detalhe do código corrigido.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G14-backgrounds.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G14-bullets",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_58",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "iOS e bullets — Imagem de apoio G14",
+      "descricao_visual": "Bullets no iPhone antes e depois da correção, com o trecho de CSS aplicado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G14-bullets.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G15-audiodescricao",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_60",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Audiodescrição — Imagem de apoio G15",
+      "descricao_visual": "Exemplo de texto alternativo, descrição longa e audiodescrição de vídeo (procedimento do cartão T16).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G15-audiodescricao.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G15-imagemap",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_61",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Imagemap na Hands-on — Imagem de apoio G15",
+      "descricao_visual": "Configuração do imagemap na Hands-on: ordem de navegação, rótulos e alternativa de acesso (cartão T17).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 700
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 700
+        }
+      },
+      "proporcao": "16:7",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G15-imagemap.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G15-pdf",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_62",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "PDF e descrição acessível — Imagem de apoio G15",
+      "descricao_visual": "PDF com ordem de leitura e estrutura verificadas (não usar a aparência visual como comprovação).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G15-pdf.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G15-libras",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_63",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Vídeos com Libras e legendas — Imagem de apoio G15",
+      "descricao_visual": "Vídeo com template de Libras e legenda do cliente do projeto.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G15-libras.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G16-catalogo",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_65",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Padrão dos cursos criados na Hands-on — Imagem de apoio G16",
+      "descricao_visual": "Header de catálogo aprovado com o logo AST e seções desbloqueadas.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G16-catalogo.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G16-pecas",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_66",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Peças AST e Hands-on — Imagem de apoio G16",
+      "descricao_visual": "Templates de peças AST e Hands-on (padrão de criação ainda a definir).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 700
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 700
+        }
+      },
+      "proporcao": "16:7",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G16-pecas.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G17-mapa",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_68",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Mapa instrucional e roteiro — Imagem de apoio G17",
+      "descricao_visual": "Mapa instrucional e roteiro de um documento fictício ou autorizado.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G17-mapa.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G17-ajustes",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_69",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Ajustes e atualizações de conteúdo — Imagem de apoio G17",
+      "descricao_visual": "Slide de consideração interna com print, localização e comentário.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G17-ajustes.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G17-pasta-di",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_71",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Organização da pasta DI — Imagem de apoio G17",
+      "descricao_visual": "Pasta _DI com as subpastas de considerações e locuções.",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G17-pasta-di.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G18-ementa",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_73",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Ementa e geração de roteiros com IA — Imagem de apoio G18",
+      "descricao_visual": "Formulário de ementa e revisão com IA (documentos vinculados).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 1000
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 1000
+        }
+      },
+      "proporcao": "16:10",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G18-ementa.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "G18-redes",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "tela_74",
+      "componente": "placeholder-asset → <img class=\"print-ast\">",
+      "tipo": "foto",
+      "finalidade_pedagogica": "Mostrar o processo real descrito no trecho do roteiro, para a pessoa reconhecer a tela/ferramenta quando for executar.",
+      "finalidade_visual": "Âncora visual da tela de consulta; quebra a sequência de texto.",
+      "relacao_dna": "Prints reais de processo (sem tratamento de cor), recorte limpo da janela; exibidos com cantos 12px e sombra suave sobre fundo branco/lavanda (#f3f0ff). Nada de ilustração genérica (DNA: design/dna-visual.md).",
+      "contexto_conteudo": "Conteúdo e postagem nas redes sociais — Imagem de apoio G18",
+      "descricao_visual": "Modelo de pauta e postagem (processo de marketing ainda a definir).",
+      "referencias_estilo": [
+        "docs/mapa_imagens_prints_onboarding.md (mapa de imagens do roteiro)",
+        "Nomear com o código, ex.: OP09_koala_pasta.png"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 1600,
+          "altura": 700
+        },
+        "mobile": {
+          "largura": 1600,
+          "altura": 700
+        }
+      },
+      "proporcao": "16:7",
+      "formato": "png",
+      "transparencia": false,
+      "ponto_focal": "a área da interface onde a ação acontece (botão, campo ou pasta citada)",
+      "area_segura": "24px livres nas bordas; textos da interface legíveis em 390px de largura",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "o elemento de interface citado no trecho do roteiro"
+      ],
+      "elementos_nao_cortaveis": [
+        "rótulos e botões citados no texto"
+      ],
+      "elementos_proibidos": [
+        "senhas, tokens, chaves SSH, e-mails pessoais e dados de produtividade de colaboradores",
+        "desktop inteiro quando o recorte da janela basta"
+      ],
+      "nome_caminho_final": "dist/midias/imagens/G18-redes.png",
+      "variante_de": "",
+      "observacoes": "Substituir a div .placeholder-asset pela <img> com alt descritivo.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    },
+    {
+      "id": "FONTE-INTELO",
+      "status": "pendente",
+      "modulo": "Onboarding",
+      "tela": "todas",
+      "componente": "dist/css/fonts + fontface.css",
+      "tipo": "objeto",
+      "finalidade_pedagogica": "Legibilidade com a tipografia oficial.",
+      "finalidade_visual": "Fidelidade à identidade dos sites AST/Hands-on.",
+      "relacao_dna": "Intelo é a fonte dos dois sites; Figtree está como substituta provisória.",
+      "contexto_conteudo": "Identidade visual (sites da empresa)",
+      "descricao_visual": "Arquivos WOFF2 licenciados da Intelo (Regular, Medium, SemiBold, Bold, Italic) com permissão de embutir em pacote SCORM.",
+      "referencias_estilo": [
+        "https://www.handsoncreator.ai/pt-br"
+      ],
+      "variant": "unica",
+      "dimensoes": {
+        "desktop": {
+          "largura": 0,
+          "altura": 0
+        },
+        "mobile": {
+          "largura": 0,
+          "altura": 0
+        }
+      },
+      "proporcao": "n/a",
+      "formato": "woff2",
+      "transparencia": false,
+      "ponto_focal": "n/a",
+      "area_segura": "n/a",
+      "encaixe": "contain",
+      "elementos_obrigatorios": [
+        "licença que permita uso web/embed"
+      ],
+      "elementos_nao_cortaveis": [],
+      "elementos_proibidos": [
+        "copiar do CDN do site sem confirmar a licença"
+      ],
+      "nome_caminho_final": "dist/css/fonts/intelo-*.woff2",
+      "variante_de": "",
+      "observacoes": "Ao receber: declarar @font-face 'Intelo' e trocar $tipografia-1 no SCSS.",
+      "historico": [
+        {
+          "data": "2026-10-26",
+          "evento": "solicitado",
+          "detalhe": "/op nova"
+        }
+      ]
+    }
+  ]
+}

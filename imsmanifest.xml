@@ -10,11 +10,11 @@
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
   </metadata>
-  <organizations default="PJ-AST_0000_Piloto_Modelo">
-    <organization identifier="PJ-AST_0000_Piloto_Modelo">
-      <title><![CDATA[Piloto Modelo]]></title>
+  <organizations default="AST_Onboarding">
+    <organization identifier="AST_Onboarding">
+      <title><![CDATA[Onboarding Asterisco]]></title>
       <item identifier="item_1" identifierref="resource_1">
-        <title><![CDATA[Piloto Modelo]]></title>
+        <title><![CDATA[Onboarding Asterisco]]></title>
       </item>
     </organization>
   </organizations>

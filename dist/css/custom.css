@@ -1,35 +1,24 @@
 /* Arquivo gerado automaticamente. Alterações efetuadas manualmente serão perdidas. */
-/* capa */
-.ascss-4 {
-background-size: cover;
-background-image: url(../midias/bg/capa.jpg);
-background-position: center;
+/* ast_capa */
+.ascss-200 {
+background-color: #2b0068;
+background-image: radial-gradient(circle at 85% 20%, rgba(103, 6, 255, 0.55) 0%, rgba(103, 6, 255, 0) 45%), radial-gradient(circle at 10% 90%, rgba(84, 227, 119, 0.18) 0%, rgba(84, 227, 119, 0) 35%), linear-gradient(135deg, #2b0068 0%, #330a8d 60%, #4900a0 100%);
 }
-/* tela_02 */
-.ascss-71 {
-background-size: cover;
-background-image: url(../midias/bg/tela_02.jpg);
-background-position: center;
-background-attachment: fixed;
+/* ast_abertura */
+.ascss-201 {
+background-color: #330a8d;
+background-image: radial-gradient(circle at 90% 10%, rgba(103, 6, 255, 0.6) 0%, rgba(103, 6, 255, 0) 50%), linear-gradient(135deg, #2b0068 0%, #330a8d 70%);
 }
-@media (max-width: 640px) {
-.ascss-71 {
-background-image: url("../midias/bg/tela_branca_neutra.jpg");
-background-position: center;
-background-size: cover;
+/* ast_lavanda */
+.ascss-202 {
+background-color: #f3f0ff;
 }
+/* ast_branco */
+.ascss-203 {
+background-color: #ffffff;
 }
-/* tela_branca_neutra */
-.ascss-113 {
-background-size: cover;
-background-image: url(../midias/bg/tela_branca_neutra.jpg);
-background-position: center;
-background-attachment: fixed;
-}
-/* tela_cinza_neutra */
-.ascss-130 {
-background-size: cover;
-background-image: url(../midias/bg/tela_cinza_neutra.jpg);
-background-position: center;
-background-attachment: fixed;
+/* ast_escuro */
+.ascss-204 {
+background-color: #2b0068;
+background-image: linear-gradient(160deg, #2b0068 0%, #330a8d 100%);
 }
